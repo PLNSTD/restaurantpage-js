@@ -1,0 +1,19 @@
+{
+  "name": "projectrestaurantpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PLNSTD/restaurantpage-js.git"
+  },
+  "author": "Plidher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PLNSTD/restaurantpage-js/issues"
+  },
+  "homepage": "https://github.com/PLNSTD/restaurantpage-js#readme"
+}
