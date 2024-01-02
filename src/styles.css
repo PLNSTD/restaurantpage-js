@@ -1,3 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-image: url('./images/home/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#content {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+#page-container {
+    max-height: calc(100vh - 120px) !important;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+
+.home-content {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(220, 220, 220, 0.7);
+}
+
+.home-title-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.home-title-container > h2 {
+    display: inline;
+    color: green;
+}
+
+.home-content > p {
+    padding: 10px;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+}
+
+.italy-icon {
+    background-image: url(images/home/italy-icon.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.topnav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(220, 220, 220, 0.7);
+    padding: 0;
+    margin: 0;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.tab-links {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+}
+
+.page-tab {
+    width: 5rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected {
+    background-color: rgba(255, 0, 0, 0.85) !important;
+    color: white;
+}
+
+.page-tab:hover {
+    background-color: rgba(10, 10, 10, 0.7);
+    color: white;
+}
+
+.mini-icon {
+    height: 4em;
+    width: fit-content;
+}
+
 h1 {
     color: red;
+    font-size: 1.6rem;
+    font-weight: bold;
+    width: fit-content;
+    margin-bottom: 0.5rem;
 }

@@ -1,0 +1,202 @@
+.menu-container {
+    width: 70%;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(220, 220, 220, 0.7);
+    border-radius: 2%;
+}
+
+.title-container > h2 {
+    font-size: 30px;
+    color: rgb(252, 196, 25);
+    display: inline;
+    text-align: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.menu-icon {
+    background-image: url(images/menu/menu-icon.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.menu-items-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.menu-items-container > h4 {
+    display: inline;
+}
+
+.flex-childs {
+    flex: 1 0 33%;
+}
+
+.item-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items-containers {
+    border-radius: 5%;
+}
+
+ol {
+    line-height: 5px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+hr {
+    border-bottom: 1px solid red;
+}
+
+.starters-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.starters-img {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(images/menu/cheese-icon.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: saturation;
+    opacity: 0.2;
+    transform: rotate(30deg);
+}
+
+.main-dishes-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.main-dish-img {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(images/menu/pasta-icon.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: saturation;
+    opacity: 0.2;
+    transform: rotate(30deg);
+}
+
+.salads-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.salads-img {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(images/menu/salad-icon.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: saturation;
+    opacity: 0.2;
+    transform: rotate(-30deg);
+}
+
+.specials-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.specials-img {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(images/menu/pizza-icon.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: saturation;
+    opacity: 0.2;
+    transform: rotate(-10deg);
+}
+
+.drinks-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.drinks-img {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(images/menu/drink-icon.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: saturation;
+    opacity: 0.2;
+    transform: rotate(30deg);
+}
+
+.desserts-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.desserts-img {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(images/menu/dessert-icon.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: saturation;
+    opacity: 0.2;
+}
+
